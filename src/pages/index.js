@@ -1,10 +1,12 @@
-
+import Layout from "@/components/templates/Layout"
 
 
 export default function Home() {
   return (
    <>
-   <div>Olá</div>
+   <Layout>
+      
+   </Layout>
    </>
   )
 }
