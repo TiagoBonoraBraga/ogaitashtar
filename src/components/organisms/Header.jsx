@@ -7,11 +7,11 @@ export default function Header() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full bg-blue-300 shadow">
+        <nav className="w-full shadow-lg fixed">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <CustomLogo />
+                        <CustomLogo title="Ogait Ashtar" />
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-white-500 rounded-md outline-none focus:border-white-500 focus:border"
@@ -55,38 +55,25 @@ export default function Header() {
                         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
                             }`}
                     >
+
+
+
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white-500 hover:text-white-500 hover:text-lg">
                                 <a href="/">Home</a>
                             </li>
                             <li className="text-white-500 hover:text-white-500 hover:text-lg">
-                                <a href="/about">Sobre</a>
+                                <a href="/galery">Discografia</a>
                             </li>
                             <li className="text-white-500 hover:text-white-500 hover:text-lg">
-                                <a href="/projects">Projetos</a>
+                                <a href="/movies">Jobs</a>
                             </li>
                             <li className="text-white-500 hover:text-white-500 hover:text-lg">
-                                <a href="/contact">Contato</a>
+                                <a href="/letters">Contato</a>
                             </li>
                         </ul>
 
-                        <button className="mt-3 space-y-2 lg:hidden md:hidden md:inline-block">
-                            <Link
-                                href="/login"
-                                className="inline-block w-full px-4 py-2 text-center text-blue-500 bg-white-500 rounded-md shadow hover:bg-blue-500 hover:text-white-500"
-                            >
-                                Login
-                            </Link>
-                        </button>
                     </div>
-                </div>
-                <div className="hidden space-x-2 md:inline-block">
-                    <a
-                        href="#"
-                        className="px-4 py-2 text-blue-300 bg-white-500 rounded-md shadow hover:bg-blue-500 hover:text-white-500"
-                    >
-                        Login
-                    </a>
                 </div>
             </div>
         </nav>
