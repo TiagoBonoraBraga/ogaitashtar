@@ -14,13 +14,13 @@ export default function Header() {
                         <CustomLogo title="Ogait Ashtar" />
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-white-500 rounded-md outline-none focus:border-white-500 focus:border"
+                                className="p-2 text-black-500 rounded-md outline-none focus:border-black-500 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white-500"
+                                        className="w-6 h-6 text-black-500"
                                         viewBox="0 0 20 20"
                                         fill="white"
                                     >
@@ -33,7 +33,7 @@ export default function Header() {
                                 ) : (
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        className="w-6 h-6 text-white-500"
+                                        className="w-6 h-6 text-black-500"
                                         fill="none"
                                         viewBox="0 0 24 24"
                                         stroke="currentColor"
@@ -59,16 +59,16 @@ export default function Header() {
 
 
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white-500 hover:text-white-500 hover:text-lg">
+                            <li className="text-black-500 hover:text-black-500 hover:text-lg">
                                 <a href="/">Home</a>
                             </li>
-                            <li className="text-white-500 hover:text-white-500 hover:text-lg">
+                            <li className="text-black-500 hover:text-black-500 hover:text-lg">
                                 <a href="/galery">Discografia</a>
                             </li>
-                            <li className="text-white-500 hover:text-white-500 hover:text-lg">
+                            <li className="text-black-500 hover:text-black-500 hover:text-lg">
                                 <a href="/movies">Jobs</a>
                             </li>
-                            <li className="text-white-500 hover:text-white-500 hover:text-lg">
+                            <li className="text-black-500 hover:text-black-500 hover:text-lg">
                                 <a href="/letters">Contato</a>
                             </li>
                         </ul>
