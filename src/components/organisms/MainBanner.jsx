@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function MainBanner() {
     return (
         <>
-        <div className="mt-52">
+      
 
             <section className="flex flex-row justify-center items-center w-auto">
                 <div>
@@ -25,7 +25,7 @@ export default function MainBanner() {
                 </div>
 
             </section>
-        </div>
+      
         </>
     )
 }
