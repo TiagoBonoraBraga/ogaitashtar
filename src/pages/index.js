@@ -1,17 +1,12 @@
-import Layout from "@/components/templates/Layout"
-import MainBanner from "@/components/organisms/MainBanner"
-
+import MainBanner from "@/components/organisms/MainBanner";
+import Layout from "@/components/templates/Layout";
 
 export default function Home() {
   return (
-   <>
-   <Layout>
-  
-
-      <MainBanner /> 
-   
-    
-   </Layout>
-   </>
+    <>
+    <Layout>
+      <MainBanner />
+    </Layout>
+    </>
   )
 }

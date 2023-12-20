@@ -1,31 +1,45 @@
 import Image from "next/image"
-export default function MainBanner() {
+import {mainBanner} from '@/mocks/mainBanner'
+export default function MainBanner(mainBanner) {
     return (
         <>
-      
 
-            <section className="flex flex-row justify-center items-center w-auto">
-                <div>
-                    <Image
-                        src="/tiago.jpg"
-                        width={500}
-                        height={500}
-                        alt="Tiago Braga - Ogait Ashtar"
-                    />
-                </div>
-                <div>
-                    <h1>Ogait Ashtar</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        It has survived not only five centuries, but also the leap into electronic typesetting,
-                        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                        Aldus PageMaker including versions of Lorem Ipsum.</p>
+        {}
+            <section className="flex flex-row justify-center items-center bg-white-500 ">
+                <div className="z-0 ss:z-0 flex flex-row justify-center items-center mt-16 w-full gap-20 bg-black-500 ss:flex ss:flex-col ss:justify-center ss:items-center">
+                    <div>
+                        <Image
+                            src="/tiago.jpg"
+                            width={3000}
+                            height={3000}
+                            alt="Tiago Braga - Ogait Ashtar"
+                        />
+                    </div>
+                    <div className="text-white-500 mb-96">
+                        <h1 className="py-10 text-4xl font-bold ">{title}</h1>
+                        <p className="mr-10 text-justify">{description}</p>
+                    </div>
                 </div>
 
             </section>
-      
+            <section className="mb-40">
+                <div className="z-0 ss:z-0 flex flex-row justify-center items-center mt-16 w-full gap-20 bg-black-500 ss:flex ss:flex-col ss:justify-center ss:items-center ">
+
+                <div className="text-white-500 mb-96 ml-14">
+                        <h1 className="py-10 text-4xl font-bold ">{title}</h1>
+                        <p className="mr-10 text-justify">{description}</p>
+                    </div>
+                    <Image
+                        src="/tiago.jpg"
+                        width={3000}
+                        height={3000}
+                        alt="Tiago Braga - Ogait Ashtar"
+                         />
+
+
+                </div>
+            </section>
+
         </>
     )
 }
