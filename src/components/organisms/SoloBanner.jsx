@@ -3,7 +3,7 @@ export default function soloBanner() {
     return (
         <>
          <section className="relative bg-[url('/miracao.jpg')] bg-cover bg-center bg-no-repeat">
-                <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+                <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 ss:bg-black-500">
                     <div className="max-w-xl text-center  ">
                         <h1 className="text-3xl font-extrabold  text-white-500 sm:text-5xl">
                             OGAIT ASHTAR
