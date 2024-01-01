@@ -8,7 +8,7 @@ export default function Header() {
 
     return (
         <>
-            <header className="h-16 bg-white w-[100%] z-50 fixed  top-0 ss:fixed ss:z-50 ">
+            <header className="h-16 bg-white-500 w-[100%] z-50 fixed  top-0 ss:fixed ss:z-50 ">
                 <nav className="w-full shadow-lg  "> 
                     <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                         <div>
