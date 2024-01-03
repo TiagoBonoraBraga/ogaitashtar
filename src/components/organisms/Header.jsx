@@ -65,13 +65,16 @@ export default function Header() {
                                         <a href="/">Home</a>
                                     </li>
                                     <li className="text-black-500  hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/galery">Discografia</a>
+                                        <a href="/productions">Discografia</a>
                                     </li>
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/movies">Fotos</a>
+                                        <a href="/gallery">Fotos</a>
                                     </li>
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/letters">Contato</a>
+                                        <a href="/">Ogait Ashtar</a>
+                                    </li>
+                                    <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
+                                        <a href="/contato">Contato</a>
                                     </li>
                                 </ul>
 
