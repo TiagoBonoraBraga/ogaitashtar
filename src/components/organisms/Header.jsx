@@ -74,7 +74,7 @@ export default function Header() {
                                         <a href="/">Tiago Dev</a>
                                     </li>
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/contato">Contato</a>
+                                        <a href="/contact">Contato</a>
                                     </li>
                                 </ul>
 
