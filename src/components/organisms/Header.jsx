@@ -71,7 +71,7 @@ export default function Header() {
                                         <a href="/gallery">Fotos</a>
                                     </li>
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/">Ogait Ashtar</a>
+                                        <a href="/">Tiago Dev</a>
                                     </li>
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
                                         <a href="/contato">Contato</a>

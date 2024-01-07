@@ -1,5 +1,5 @@
 import Layout from "@/components/templates/Layout";
-import Header from "@/components/organisms/Header";
+import Head from "@/components/molecules/Head"
 
 export default function Gallery() {
     return (
