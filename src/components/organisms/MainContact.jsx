@@ -1,7 +1,7 @@
 import ContactForm from "../molecules/ContactForm";
 import ContainerInfoContact from "../molecules/ContainerInfoContact";
 
-export default function ContactMain() {
+export default function MainContact() {
     return (
         <>
             <div className="container my-24 mx-auto md:px-6">

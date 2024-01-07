@@ -1,7 +1,7 @@
 import Layout from "@/components/templates/Layout";
 import MainBanner from "@/components/organisms/MainBanner";
 import SoloBanner from "@/components/organisms/soloBanner";
-import CardMain from "@/components/organisms/CardMain";
+import MainCard from "@/components/organisms/MainCard";
 import Head from "@/components/molecules/Head";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <Head />
       <MainBanner />
       <SoloBanner />
-      <CardMain />
+      <MainCard />
     </Layout>
     </>
   )

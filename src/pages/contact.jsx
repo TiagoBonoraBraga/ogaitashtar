@@ -1,13 +1,13 @@
 import Layout from "@/components/templates/Layout";
 import Head from "@/components/molecules/Head";
-import ContactMain from "@/components/organisms/ContactMain";
+import MainContact from "@/components/organisms/MainContact";
 
 export default function Contact() {
     return (
         <>
         <Layout>
             <Head />
-            <ContactMain />
+            <MainContact />
         </Layout>
         </>
     )
