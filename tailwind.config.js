@@ -15,8 +15,11 @@ module.exports = {
       xl: '1280px',
     },
     colors: {
-      black:{
+      black: {
         500: '#000000',
+      },
+      gray: {
+        200: '#dcdcde',
       },
       white: {
         500: '#ffffff',
@@ -28,6 +31,9 @@ module.exports = {
         400: '#1945ad',
         500: '#00359a',
       },
+      purple: {
+        500: '#9400D3',
+      }
     
     },
     extend: {
