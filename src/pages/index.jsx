@@ -10,7 +10,9 @@ export default function Home() {
     <>
     <Layout>
       <Head />
-      <MainSlide />
+      <section className="bg-gray-200">
+        <MainSlide />
+      </section>
       <MainBanner />
       <SoloBanner />
       <MainCard />
