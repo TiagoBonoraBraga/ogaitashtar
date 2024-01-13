@@ -36,8 +36,9 @@ export default function MainSlide() {
     const goToSlide = (slideIndex) => {
         SetCurrentIndex(slideIndex);
     }
-// usar com Next.js e Image tag - const slides = [image, image, image]
-{/* <Image src={slides[currentIndex]} alt="ImageDescription" width={YourSSWidth} height={YourSSHeight}/> */}
+
+// usar com Next.js e Image tag - const slides = [image, image, image] -  <Image src={slides[currentIndex]} alt="ImageDescription" width={YourSSWidth} height={YourSSHeight}/> */
+   
     return (
         <>
         <div className="max-w-[1400px] h-[600px] w-full m-auto py-20 px-4 relative group ">
