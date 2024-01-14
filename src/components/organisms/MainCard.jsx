@@ -1,7 +1,7 @@
 import { cards } from "@/mocks/Cards"
 import CustomTitle from "../atoms/CustomTitle";
 import CustomP from "../atoms/CustomP";
-import CustomLink from "../atoms/CustomLink";
+import CustomButtom from "../atoms/CustomButtom";
 import CustomImage from "../atoms/CustomImage";
 import Card from "../molecules/Card";
 
@@ -20,7 +20,7 @@ export default function MainCard() {
                         <div className="p-5">
                             <CustomTitle title={card.title} />
                             <CustomP description={card.description} />
-                            <CustomLink link={card.link} />
+                            <CustomButtom link={card.link} />
                         </div>
                     </div>
 

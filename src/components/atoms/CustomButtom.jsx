@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function CustomLink({link}) {
+export default function CustomButtom({link}) {
     return (
         <>
             <Link href={link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white-500 bg-blue-500 rounded-lg hover:bg-blue-400 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-500 dark:focus:ring-blue-4 00">

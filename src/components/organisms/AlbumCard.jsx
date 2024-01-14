@@ -1,9 +1,12 @@
+import Image from "next/image";
+import Link from "next/link";
+import { frontImages } from "@/mocks/Productions";
 import CustomH3 from "../atoms/CustomH3";
 import CustomIframe from "../atoms/CustomIframe";
 import CustomImage from "../atoms/CustomImage";
-import CustomName from "../atoms/CustomName";
 import CustomP from "../atoms/CustomP";
-import { frontImages } from "@/mocks/Productions";
+
+
 
 export default function AlbumCard() {
     return (
@@ -15,14 +18,11 @@ export default function AlbumCard() {
                         <div className="relative group">
                             <div className="flex flex-row justify-start items-center ring-1 ring-black-500 mb-2 rounded-sm bg-white-500 ">
                                 <CustomImage
-                                    src={frontImage.image1}
+                                    src={frontImage.logo}
                                     alt={frontImage.alt1}
-                                    width={100}
-                                    height={100}
+                                    width={300}
+                                    height={200}
                                 />
-                                <div>
-                                    <CustomName name={frontImage.title_band} />
-                                </div>
                             </div>
                             <div className="  flex flex-row ring-1 ring-black-500 gap-5 py-5 px-5 rounded-sm bg-white-500">
                                 <div className="flex flex-row ss:flex-col gap-5 ss:gap-0 ">
@@ -32,7 +32,7 @@ export default function AlbumCard() {
                                             alt={frontImage.alt1}
                                             width={350}
                                             height={300}
-                                            
+
                                         />
                                     </div>
                                     <div className="flex flex-col ring-1 ring-black-500 w-full mr-5 p-3 rounded-sm">
@@ -50,10 +50,50 @@ export default function AlbumCard() {
                                             <h4><strong>Bass e Vocals -</strong> {frontImage.bass}</h4>
                                             <h4><strong>Guita e Backvocals -</strong> {frontImage.guita}</h4>
                                             <h4><strong>Drums -</strong> {frontImage.drums}</h4>
-
+                                        </div>
+                                        <div className="flex flex-row gap-3 mt-5 ss:flex ss:justify-center ss:items-center">
+                                            <div className="cursor-pointer">
+                                                <Link href={frontImage.linkFace} className="target-blank">
+                                                    <Image
+                                                        src={frontImage.urlMediaFace}
+                                                        alt="logo Facebook"
+                                                        width={30}
+                                                        height={30}
+                                                    />
+                                                </Link>
+                                            </div>
+                                            <div className="cursor-pointer">
+                                                <Link href={frontImage.linkInstagram} className="target-blank" >
+                                                    <Image
+                                                        src={frontImage.urlMediaInstagram}
+                                                        alt="logo Instagram"
+                                                        width={30}
+                                                        height={30}
+                                                    />
+                                                </Link>
+                                            </div>
+                                            <div className="cursor-pointer">
+                                                <Link href={frontImage.linkYoutube} className="target-blank">
+                                                    <Image
+                                                        src={frontImage.urlMediaYoutube}
+                                                        alt="logo Youtube"
+                                                        width={30}
+                                                        height={30}
+                                                    />
+                                                </Link>
+                                            </div>
+                                            <div className="cursor-pointer">
+                                                <Link href={frontImage.linkSpotify} className="target-blank">
+                                                    <Image
+                                                        src={frontImage.urlMediaSpotify}
+                                                        alt="logo Spotify"
+                                                        width={30}
+                                                        height={30}
+                                                    />
+                                                </Link>
+                                            </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                             <div className=" justify-evenly items-center ring-1 ring-black-500  gap-5 py-5 px-5 rounded-sm mt-2 bg-white-500 ">
