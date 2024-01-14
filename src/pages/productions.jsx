@@ -7,7 +7,9 @@ export default function Productions() {
         <>
         <Layout>
             <Head />
-            <AlbumCard />
+            <div className='bg-black-500/30'>
+                <AlbumCard />
+            </div>
         </Layout>
         </>
     )
