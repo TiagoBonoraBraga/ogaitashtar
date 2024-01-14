@@ -21,7 +21,7 @@ export default function AlbumCard() {
                                     height={100}
                                 />
                                 <div>
-                                    <CustomName name={frontImage.name_band} />
+                                    <CustomName name={frontImage.title_band} />
                                 </div>
                             </div>
                             <div className="  flex flex-row ring-1 ring-black-500 gap-5 py-5 px-5 rounded-sm bg-white-500">
@@ -38,18 +38,18 @@ export default function AlbumCard() {
                                     <div className="flex flex-col ring-1 ring-black-500 w-full mr-5 p-3 rounded-sm">
                                         <div className="flex flex-row justify-start ">
                                             <div className="flex flex-row ss:flex-col justify-start gap-5 ">
-                                                <h2 className=" rounded-sm px-1 py-1 w-60 ">{frontImage.name_album}</h2>
-                                                <span className=" rounded-sm px-1 py-1">Ano de Lançamento - {frontImage.year}</span>
+                                                <h2 className=" rounded-sm px-1 py-1 w-60 font-bold ">{frontImage.name_album}</h2>
+                                                <span className=" rounded-sm px-1 py-1"><strong>Ano de Lançamento -</strong> {frontImage.year}</span>
                                             </div>
                                         </div>
                                         <div className="rounded-sm mt-4">
                                             <CustomP description={frontImage.description} />
                                         </div>
                                         <div>
-                                            <h3 className="mb-2">Ficha Técnica</h3>
-                                            <h4>Bass e Vocals - {frontImage.bass}</h4>
-                                            <h4>Guitar e Backvocals - {frontImage.guita}</h4>
-                                            <h4>Drums - {frontImage.drums}</h4>
+                                            <h3 className="mb-2 font-bold">Ficha Técnica</h3>
+                                            <h4><strong>Bass e Vocals -</strong> {frontImage.bass}</h4>
+                                            <h4><strong>Guita e Backvocals -</strong> {frontImage.guita}</h4>
+                                            <h4><strong>Drums -</strong> {frontImage.drums}</h4>
 
                                         </div>
                                     </div>
@@ -72,16 +72,16 @@ export default function AlbumCard() {
                                     </div>
                                     <div className="ss:text-justify ss:flex ss:justify-center items-center">
                                         <ul>
-                                            <li>{frontImage.nameMusic1}</li>
-                                            <li>{frontImage.nameMusic2}</li>
-                                            <li>{frontImage.nameMusic3}</li>
-                                            <li>{frontImage.nameMusic4}</li>
-                                            <li>{frontImage.nameMusic5}</li>
-                                            <li>{frontImage.nameMusic6}</li>
-                                            <li>{frontImage.nameMusic7}</li>
-                                            <li>{frontImage.nameMusic8}</li>
-                                            <li>{frontImage.nameMusic9}</li>
-                                            <li>{frontImage.nameMusic10}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic1}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic2}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic3}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic4}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic5}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic6}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic7}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic8}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic9}</li>
+                                            <li><strong>{frontImage.name_band}</strong>{frontImage.nameMusic10}</li>
                                         </ul>
                                     </div>
                                     <div>
