@@ -9,7 +9,7 @@ import CustomP from "../../atoms/CustomP";
 export default function SemFuturoDiscografy() {
     return (
         <>
-         <section className="ss:w-auto">
+         <section className="ss:w-auto mt-5">
                
                 {semFututoDatas.map((semFuturoData, index) => (
                     <section key={index} className="ring-1 ring-black-500 max-w-[1400px] h-auto w-full m-auto p-4 rounded-sm mb-10 bg-black-500/30">

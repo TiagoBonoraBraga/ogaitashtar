@@ -6,14 +6,14 @@ export default function MainsoloBanner() {
         <>
         
             {/* <!-- Container da imagem com gradiente --> */}
-            <div className="relative bg-[url('/miracao.jpg')] bg-cover bg-center h-48 gradient-overlay text-white">
+            {/* <div className="relative bg-[url('/miracao.jpg')] bg-cover bg-center h-48 gradient-overlay text-white"> */}
                 {/* <!-- Conteúdo dentro da área da imagem --> */}
-                <div className="absolute inset-0 flex items-center justify-center">
+                {/* <div className="absolute inset-0 flex items-center justify-center">
                     <h1 className="text-4xl font-bold">Seu Título Aqui</h1>
                 </div>
-            </div>
+            </div> */}
 
-            {/* <section className="relative bg-[url('/miracao.jpg')] bg-cover bg-center bg-no-repeat ">
+            <section className="relative bg-[url('/miracao.jpg')] bg-cover bg-center bg-no-repeat ">
                 <div className="relative  mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 ">
                     <div className="max-w-xl text-center ss:bg-black-500 ">
                         <CustomH1 title="Ogait Ashtar" />
@@ -34,7 +34,7 @@ export default function MainsoloBanner() {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
         </>
     )
