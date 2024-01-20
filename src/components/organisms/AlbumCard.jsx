@@ -24,7 +24,7 @@ export default function AlbumCard() {
                                     height={200}
                                 />
                             </div>
-                            <div className=" hidden group-hover:block flex flex-row ring-1 ring-black-500 gap-5 py-5 px-5 rounded-sm bg-white-500">
+                            <div className="  flex flex-row ring-1 ring-black-500 gap-5 py-5 px-5 rounded-sm bg-white-500">
                                 <div className="flex flex-row ss:flex-col gap-5 ss:gap-0 ">
                                     <div>
                                         <CustomImage
@@ -96,7 +96,7 @@ export default function AlbumCard() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="hidden group-hover:block justify-evenly items-center ring-1 ring-black-500  gap-5 py-5 px-5 rounded-sm mt-2 bg-white-500 ">
+                            <div className=" justify-evenly items-center ring-1 ring-black-500  gap-5 py-5 px-5 rounded-sm mt-2 bg-white-500 ">
                                 <div className="flex flex-row ss:flex-col justify-evenly gap-5 ss:ring-1 ss:ring-black-500 ss:items-center">
                                     <div className="ss:mt-4">
                                         <CustomIframe
