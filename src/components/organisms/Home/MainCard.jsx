@@ -1,9 +1,9 @@
 import { cards } from "@/mocks/Cards"
-import CustomTitle from "../atoms/CustomTitle";
-import CustomP from "../atoms/CustomP";
-import CustomButtom from "../atoms/CustomButtom";
-import CustomImage from "../atoms/CustomImage";
-import Card from "../molecules/Card";
+import CustomTitle from "../../atoms/CustomTitle";
+import CustomP from "../../atoms/CustomP";
+import CustomButtom from "../../atoms/CustomButtom";
+import CustomImage from "../../atoms/CustomImage";
+import Card from "../../molecules/Card";
 
 export default function MainCard() {
     return (

@@ -1,5 +1,5 @@
-import Header from "@/components/organisms/Header";
-import Footer from "../organisms/Footer";
+import Header from "@/components/organisms/Layout/Header";
+import Footer from "../organisms/Layout/Footer";
 
 export default function Layout({children}){
     return (

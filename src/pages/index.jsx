@@ -1,9 +1,9 @@
 import Layout from "@/components/templates/Layout";
-import MainBanner from "@/components/organisms/MainBanner";
-import SoloBanner from "@/components/organisms/soloBanner";
-import MainCard from "@/components/organisms/MainCard";
+import MainBanner from "@/components/organisms/Home/MainBanner";
+import MainSoloBanner from "@/components/organisms/Home/MainSoloBanner";
+import MainCard from "@/components/organisms/Home/MainCard";
 import Head from "@/components/molecules/Head";
-import MainSlide from "@/components/organisms/MainSlide";
+import MainSlide from "@/components/organisms/Home/MainSlide";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         <MainSlide />
       </section>
       <MainBanner />
-      <SoloBanner />
+      <MainSoloBanner />
       <MainCard />
     </Layout>
     </>

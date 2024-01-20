@@ -1,7 +1,7 @@
 import Link from "next/link"
-import CustomH1 from "../atoms/CustomH1"
+import CustomH1 from "../../atoms/CustomH1"
 
-export default function soloBanner() {
+export default function MainsoloBanner() {
     return (
         <>
         

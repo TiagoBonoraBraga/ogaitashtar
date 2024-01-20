@@ -1,5 +1,5 @@
-import ContactForm from "../molecules/ContactForm";
-import ContainerInfoContact from "../molecules/ContainerInfoContact";
+import ContactForm from "../../molecules/ContactForm";
+import ContainerInfoContact from "../../molecules/ContainerInfoContact";
 
 export default function MainContact() {
     return (
