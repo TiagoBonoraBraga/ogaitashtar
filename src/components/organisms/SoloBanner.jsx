@@ -1,16 +1,26 @@
 import Link from "next/link"
 import CustomH1 from "../atoms/CustomH1"
+
 export default function soloBanner() {
     return (
         <>
-         <section className="relative bg-[url('/miracao.jpg')] bg-cover bg-center bg-no-repeat ">
+        
+            {/* <!-- Container da imagem com gradiente --> */}
+            <div className="relative bg-[url('/miracao.jpg')] bg-cover bg-center h-48 gradient-overlay text-white">
+                {/* <!-- Conteúdo dentro da área da imagem --> */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                    <h1 className="text-4xl font-bold">Seu Título Aqui</h1>
+                </div>
+            </div>
+
+            {/* <section className="relative bg-[url('/miracao.jpg')] bg-cover bg-center bg-no-repeat ">
                 <div className="relative  mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 ">
                     <div className="max-w-xl text-center ss:bg-black-500 ">
                         <CustomH1 title="Ogait Ashtar" />
-                        {/* <h1 className="text-3xl font-extrabold  text-white-500 sm:text-5xl">
-                            OGAIT ASHTAR */}
+                        <h1 className="text-3xl font-extrabold  text-white-500 sm:text-5xl">
+                            OGAIT ASHTAR
                             <strong className="block font-thin text-white-500  "> O INVERSO DAS COISAS </strong>
-                        {/* </h1> */}
+                        </h1>
                         <p className="mt-4 max-w-lg ss:text-xl/relaxed text-white-500 text-lg">
                             Album solo instrumental do guitarrista Curitibano Ogait Ashtar trazendo ritmos direto do astral para seus ouvidos!
                         </p>
@@ -24,7 +34,7 @@ export default function soloBanner() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
         </>
     )

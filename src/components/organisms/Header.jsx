@@ -62,19 +62,19 @@ export default function Header() {
 
                                 <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/">Home</a>
+                                        <Link href="/" prefetch={false}>Home</Link>
                                     </li>
                                     <li className="text-black-500  hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/productions">Discografia</a>
+                                        <Link href="/productions" prefetch={false}>Discografia</Link>
                                     </li>
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/gallery">Fotos</a>
+                                        <Link href="/gallery" prefetch={false}>Fotos</Link>
                                     </li>
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/">Tiago Dev</a>
+                                        <Link href="/" prefetch={false}>Tiago Dev</Link>
                                     </li>
                                     <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
-                                        <a href="/contact">Contato</a>
+                                        <Link href="/contact" prefetch={false}>Contato</Link>
                                     </li>
                                 </ul>
 
