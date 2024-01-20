@@ -286,3 +286,42 @@ export const semFututoDatas = [
         nameMusic10: " -Esturjão",
     }
 ]
+
+export const feridaDatas = [
+    {
+        logo: "/images/logoAlma.png",
+        image1: "/images/logoAlmaCd1.jpg",
+        alt1: "Capa do Album",
+        title_band: "ALMA NEGRA",
+        name_band: "Alma Negra",
+        name_album: "Alma Negra",
+        year: "2016",
+        description: "Álbum composto entre os anos de 2012 e 2015, lançado em 2016 - captado por Kafofo Studio Curitiba - Pr e mixado/master por Maycon Avante Garden Studio. ",
+        frame1: "https://www.youtube.com/embed/Ftk3dcdpoME?si=SSo_T1755MAupt0x",
+        frame2: "https://www.youtube.com/embed/BC62l9582Pc?si=p1RBiWXXld3w5NmP",
+        title: "Full Album",
+        title2: "Video Clip",
+        guita: "Ogait Ashtar",
+        bass: "Evil Leire",
+        drums: "Agenor Nicolodi",
+        urlMediaFace: "/images/logoFacebook.jpg",
+        urlMediaYoutube: "/images/logoYoutube.png",
+        urlMediaInstagram: "/images/logoInsta.jpg",
+        urlMediaSpotify: "/images/logoSpotify.jpg",
+        linkFace: "https://www.facebook.com/BandaAlmaNegraHeavy",
+        linkYoutube: "https://www.youtube.com/@almanegraheavy6811",
+        linkInstagram: "https://www.instagram.com/almanegraheavy/",
+        linkSpotify: "https://open.spotify.com/album/3uYeWSHk1ci3H96OhAb9Dw?si=4VTE0x6HSC2QCHU4W6WiXQ&context=spotify%3Aalbum%3A3uYeWSHk1ci3H96OhAb9Dw",        
+        nameMusic1: " - Gamera (você só)",
+        nameMusic2: " - Verdades Controvérsias",
+        nameMusic3: " - Chapéu de Ouro",
+        nameMusic4: " - Suspeita de Solidão",
+        nameMusic5: " - Interlúdio",
+        nameMusic6: " - Alma Negra",
+        nameMusic7: " - Trem da Perdição",
+        nameMusic8: " - Três Motivos",
+        nameMusic9: " - Malcriado",
+        nameMusic10: " - Madrugada Insana",
+    },
+    
+]
