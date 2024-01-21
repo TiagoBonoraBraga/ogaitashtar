@@ -1,11 +1,13 @@
 import Layout from '@/components/templates/Layout';
+import dynamic from 'next/dynamic';
 import Head from '@/components/molecules/Head';
 import { useState } from 'react';
 import CustomImage from '@/components/atoms/CustomImage';
-import AlmaNegraDiscografy from '@/components/organisms/Discografy/AlmaNegraDiscografy';
-import TripaDiscografy from '@/components/organisms/Discografy/TripaDiscografy';
-import SemFuturoDiscografy from '@/components/organisms/Discografy/SemFuturoDiscografy';
-import FeridaDiscografy from '@/components/organisms/Discografy/FeridaDiscografy';
+const AlmaNegraDiscografy = dynamic(() => import('@/components/organisms/Discografy/AlmaNegraDiscografy'));
+// import AlmaNegraDiscografy from '@/components/organisms/Discografy/AlmaNegraDiscografy';
+const TripaDiscografy = dynamic(() => import('@/components/organisms/Discografy/TripaDiscografy'));
+const SemFuturoDiscografy = dynamic(() => import('@/components/organisms/Discografy/SemFuturoDiscografy'));
+const FeridaDiscografy = dynamic(() => import('@/components/organisms/Discografy/FeridaDiscografy'));
 
 export default function Productions() {
     const [isVisibleAlma, setAlbumCardAlmaStatus] = useState(false);
