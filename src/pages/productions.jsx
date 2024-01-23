@@ -1,10 +1,9 @@
-import Layout from '@/components/templates/Layout';
-import dynamic from 'next/dynamic';
-import Head from '@/components/molecules/Head';
 import { useState } from 'react';
+import dynamic from 'next/dynamic';
+import Layout from '@/components/templates/Layout';
+import Head from '@/components/molecules/Head';
 import CustomImage from '@/components/atoms/CustomImage';
 const AlmaNegraDiscografy = dynamic(() => import('@/components/organisms/Discografy/AlmaNegraDiscografy'));
-// import AlmaNegraDiscografy from '@/components/organisms/Discografy/AlmaNegraDiscografy';
 const TripaDiscografy = dynamic(() => import('@/components/organisms/Discografy/TripaDiscografy'));
 const SemFuturoDiscografy = dynamic(() => import('@/components/organisms/Discografy/SemFuturoDiscografy'));
 const FeridaDiscografy = dynamic(() => import('@/components/organisms/Discografy/FeridaDiscografy'));
