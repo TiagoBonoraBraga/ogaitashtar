@@ -23,11 +23,11 @@ export default function Home() {
     <>
       <Layout>
         <Head />
-        <main className="h-[100vh]">
-          {/* <section className="bg-gray-200">
+        <main >
+          <section className="bg-gray-200">
             <MainSlide />
           </section>
-          {openModal && (            
+          {/* {openModal && (            
               <Modal />
           )}
           <div>
