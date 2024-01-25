@@ -7,7 +7,7 @@ export default function Gallery({id}) {
         <>
         <Layout>
             <Head />
-            <main className="mt-40">
+            <main className="mt-[60px]">
                 <ImageGallery />
             </main>
         </Layout>
