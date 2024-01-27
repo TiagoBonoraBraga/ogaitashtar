@@ -35,24 +35,23 @@ const ImgAction = (action) => {
     return (
         <>
         {data.img &&
-            <div className="fixed flex justify-center items-center overflow-hidden w-[100%] h-lvh py-40 bg-black-500/80 ">
-                <button onClick={()=> ImgAction()}className="absolute top-5 right-5 text-3xl text-white-500">X</button>
-                <button onClick={()=> ImgAction('previous-image')} className="bg-white-500 rounded-md p-2 mr-5">Previous</button>
-                <img src={data.img} className="w-auto max-h-full max-w-full" alt="Fotos" />
-                <button onClick={()=> ImgAction('next-image')} className="bg-white-500 rounded-md p-2 ml-5">Next</button>
+            <div className="fixed flex justify-center items-center overflow-hidden h-screen w-full bg-black-500/80 ">
+                <button onClick={()=> ImgAction()}className="absolute top-7 right-5 text-2xl text-white-500 hover:text-red-500 ss:hover:text-red-500">X</button>
+                    <button onClick={()=> ImgAction('previous-image')} className="font-semibold bg-white-500 rounded-md p-2 mr-5 ss:absolute ss:left-1 ss:top-[340px] ">Back</button>
+                <img src={data.img} className=" mb-40 p-5 mt-36 ss:mt-0 ss:p-1 ss:mb-64 rounded-md " alt="Fotos" />
+                <button onClick={()=> ImgAction('next-image')} className="font-semibold bg-white-500 rounded-md p-2 ml-5 ss:absolute ss:right-1 ss:top-[340px] ">Próx</button>
             </div>
         }
-            <div className="flex flex-wrap justify-center items-center p-10">
+            <h1 className=" flex flex-row justify-center items-center py-10 text-3xl lg font-semibold bg-gray-200 ring-1 ring-black-500">Trilhas e Inline-Street</h1>
+            <div className="flex flex-wrap justify-center items-center p-5 w-full ">
                 {images.map((image, i) => (
-
                     <img
                         key={i}
                         src={image}
-                        style={{ width: "40%", display: "block", margin: "5px", cursor: "pointer" }}
+                        className="w-[40%] ss:w-[100%] block m-5 cursor-pointer rounded-2xl "
                         alt=""
                         onClick={()=> viewImage(image, i)}
                     />
-
                 ))}
             </div>
 
