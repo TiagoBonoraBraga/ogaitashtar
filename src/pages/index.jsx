@@ -1,12 +1,11 @@
+import { useState } from "react";
 import Layout from "@/components/templates/Layout";
-import MainBanner from "@/components/organisms/Home/MainBanner";
 import MainSoloBanner from "@/components/organisms/Home/MainSoloBanner";
 import MainCard from "@/components/organisms/Home/MainCard";
 import Head from "@/components/molecules/Head";
 import MainSlide from "@/components/organisms/Home/MainSlide";
+import ImageGrid from "@/components/organisms/Gallery/ImageGrid";
 
-import { useState } from "react";
-import Modal from "@/components/molecules/Modal";
 
 export default function Home() {
 
@@ -24,18 +23,10 @@ export default function Home() {
       <Layout>
         <Head />
         <main >
-          <section className="bg-gray-200">
+          <section className="bg-gray-200 mb-10">
             <MainSlide />
           </section>
-          {/* {openModal && (            
-              <Modal />
-          )}
-          <div>
-            <button onClick={handleClick}>Click</button>
-          </div>  */}
-
-
-          <MainBanner />
+          <ImageGrid />         
           <MainSoloBanner />
           <MainCard />
         </main>

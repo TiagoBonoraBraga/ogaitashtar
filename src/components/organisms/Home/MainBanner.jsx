@@ -1,6 +1,6 @@
 import CustomH1 from "../../atoms/CustomH1";
-import CustomImage from "../../atoms/CustomImage";
 import CustomP from "../../atoms/CustomP";
+import CustomImage from "../../atoms/CustomImage";
 
 export default function MainBanner() {
     return (

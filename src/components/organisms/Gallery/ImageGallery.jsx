@@ -6,23 +6,13 @@ const images = [
     "images/streetAtletico.jpg",    
     "images/guitaRebellion.jpg", 
     "images/eupedrera.jpg",
-    "images/paranagua.jpg",
-    // "images/rollerTrue.jpg" ,  
+    "images/paranagua.jpg",    
     "images/29.jpg",
     "images/bocaGuitar.jpg",
     "images/casa.jpg",
     "images/guitaespada.jpg",
     "images/morro.jpg",
     "images/tiagoBass.jpg" 
-]
-
-const images2 = [
-    "images/29.jpg",
-    "images/bocaGuitar.jpg",
-    "images/casa.jpg",
-    "images/guitaespada.jpg",
-    "images/morro.jpg",
-    "images/tiagoBass.jpg"
 ]
 
 export default function ImageGallery() {
@@ -55,7 +45,7 @@ const ImgAction = (action) => {
             <div className="fixed flex justify-center items-center overflow-hidden h-screen w-full bg-black-500/80 ">
                 <button onClick={()=> ImgAction()}className="absolute top-7 right-5 text-2xl text-white-500 hover:text-red-500 ss:hover:text-red-500">X</button>
                     <button onClick={()=> ImgAction('previous-image')} className="font-semibold bg-white-500 rounded-md p-2 mr-5 ss:absolute ss:left-1 ss:top-[340px] ">Back</button>
-                <img src={data.img} className=" mb-40 p-5 mt-36 ss:mt-0 ss:p-1 ss:mb-64 rounded-md w-[50%] " alt="Fotos" />
+                <img src={data.img} className=" mb-40 p-5 mt-36 ss:mt-0 ss:p-1 ss:mb-64 rounded-md w-[50%] ss:w-96 " alt="Fotos" />
                 <button onClick={()=> ImgAction('next-image')} className="font-semibold bg-white-500 rounded-md p-2 ml-5 ss:absolute ss:right-1 ss:top-[340px] ">Próx</button>
             </div>
         }
