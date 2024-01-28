@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Layout from "@/components/templates/Layout";
 import MainSoloBanner from "@/components/organisms/Home/MainSoloBanner";
 import MainCard from "@/components/organisms/Home/MainCard";
@@ -7,17 +6,8 @@ import MainSlide from "@/components/organisms/Home/MainSlide";
 import ImageGrid from "@/components/organisms/Gallery/ImageGrid";
 
 
+
 export default function Home() {
-
-  const [openModal, setOpenModal] = useState(false);
-
-
-  const handleClick = () => {
-    setOpenModal(true)
-  }
-
-
-
   return (
     <>
       <Layout>
@@ -28,7 +18,7 @@ export default function Home() {
           </section>
           <ImageGrid />         
           <MainSoloBanner />
-          <MainCard />
+          <MainCard />         
         </main>
       </Layout>
     </>
