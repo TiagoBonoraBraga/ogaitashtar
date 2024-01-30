@@ -13,15 +13,14 @@ export default function MainsoloBanner() {
                 </div>
             </div> */}
 
-            <section className="relative bg-[url('/miracao.jpg')] bg-cover bg-center bg-no-repeat ">
-                <div className="relative  mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 ">
-                    <div className="max-w-xl text-center ss:bg-black-500 ">
-                        <CustomH1 title="Ogait Ashtar" />
-                        <h1 className="text-3xl font-extrabold  text-white-500 sm:text-5xl">
+            <section className=" bg-[url('/images/capaOgait2.png')] bg-cover bg-center bg-no-repeat  ">
+                <div className="relative flex justify-end items-end mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8 ">
+                    <div className=" max-w-xl text-center ss:bg-black-500 ">                       
+                        <h1 className="text-2xl font-extrabold  text-black-500 sm:text-5xl">
                             OGAIT ASHTAR
-                            <strong className="block font-thin text-white-500  "> O INVERSO DAS COISAS </strong>
+                            <strong className="block font-thin text-black-500  "> O INVERSO DAS COISAS </strong>
                         </h1>
-                        <p className="mt-4 max-w-lg ss:text-xl/relaxed text-white-500 text-lg">
+                        <p className="mt-4 max-w-lg ss:text-xl/relaxed text-black-500 text-lg">
                             Album solo instrumental do guitarrista Curitibano Ogait Ashtar trazendo ritmos direto do astral para seus ouvidos!
                         </p>
                         <div className="mt-8 flex justify-center items-center text-center">
