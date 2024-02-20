@@ -24,7 +24,7 @@ export default function MainSlide() {
 
     setTimeout(() => {
         prevSlide()
-      }, "4000");
+      }, "5000");
 
       const prevSlide = () => {
           const isFirstSlide = currentIndex === 0;
