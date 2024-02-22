@@ -13,12 +13,14 @@ export default function Home() {
       <Layout>
         <Head />
         <main >
-          <section className="bg-gray-200 mb-10">
+          <section className="bg-gray-300">
             <MainSlide />
           </section>
-          <ImageGrid />         
+
+          <ImageGrid />
+
           <MainSoloBanner />
-          <MainCard />         
+          <MainCard />
         </main>
       </Layout>
     </>

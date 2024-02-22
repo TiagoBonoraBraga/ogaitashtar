@@ -57,7 +57,7 @@ export default function MainSlide() {
             <div className="hidden group-hover:block absolute top=[50%] -translate-x-0 translate-y-[-450%] right-5 text-2xl rounded-full p-2  text-white-500 cursor-pointer">
                 <BsChevronCompactRight onClick={nextSlide} size={50}/>
             </div>
-            <div className='flex top-4 justify-center py-2'>
+            <div className='flex top-4 justify-center py-2 '>
                 {slides.map((slide, slideIndex) => (
                     <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className='text-2xl cursor-pointer'>
                         <RxDotFilled />
