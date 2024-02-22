@@ -6,7 +6,7 @@ export default function MainBanner() {
     return (
         <>
             <section className="flex flex-row justify-center items-center bg-white-500 ">
-                <div className="flex flex-row items-center mt-16 w-full bg-black-500 ss:flex ss:flex-col ss:justify-center ss:items-center">
+                <div className="flex flex-row items-center  w-full bg-black-500 ss:flex ss:flex-col ss:justify-center ss:items-center">
                     <div className="ml-20 ss:ml-0 p-5">
                         <CustomImage
                             src="/guitaespada.jpg"
