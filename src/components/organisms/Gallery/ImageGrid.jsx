@@ -18,16 +18,16 @@ export default function ImageGrid() {
             </div>
             <div className="flex flex-row justify-center items-center mb-10 ">
                 <div className=" m-1 ss:hidden" >
-                    <img src="images/29.jpg" className="w-full h-full " alt="" />
+                    <img src="images/bass960x638.jpg" className="w-full h-full " alt="" />
                 </div>
                 <div className=" m-1 ss:hidden" >
-                    <img src="images/rollerTrue.jpg" className="w-full h-full" alt="" />
+                    <img src="images/guitaespada960x638.jpg" className="w-full h-full" alt="" />
                 </div>
                 <div className=" m-1 ss:hidden" >
-                    <img src="images/streetAtletico.jpg" className="w-full h-full " alt="" />
+                    <img src="images/palcoRebellion960x638.jpg" className="w-full h-full " alt="" />
                 </div>
                 <div className=" m-1 ss:hidden" >
-                    <img src= "images/paranagua.jpg" className="w-full h-full " alt="" />
+                    <img src= "images/tendaGuita960x638.jpg" className="w-full h-full " alt="" />
                 </div>
             </div>
         </section>
