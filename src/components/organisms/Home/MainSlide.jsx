@@ -50,11 +50,11 @@ export default function MainSlide() {
                 <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500 mt-10 mb-9"
                 ></div>
             {/* Left Arrow*/}
-            <div className="hidden group-hover:block absolute top=[50%] -translate-x-0 translate-y-[-450%] left-5 text-2xl rounded-full p-2  text-white-500 cursor-pointer">
+            <div className="hidden group-hover:block absolute top=[50%] -translate-x-0 translate-y-[-550%] left-5 text-2xl rounded-full p-2  text-white-500 cursor-pointer">
                 <BsChevronCompactLeft onClick={prevSlide} size={50}/>
             </div>
             {/* Right Arrow*/ }
-            <div className="hidden group-hover:block absolute top=[50%] -translate-x-0 translate-y-[-450%] right-5 text-2xl rounded-full p-2  text-white-500 cursor-pointer">
+            <div className="hidden group-hover:block absolute top=[50%] -translate-x-0 translate-y-[-550%] right-5 text-2xl rounded-full p-2  text-white-500 cursor-pointer">
                 <BsChevronCompactRight onClick={nextSlide} size={50}/>
             </div>
             <div className='flex top-4 justify-center py-2 '>
