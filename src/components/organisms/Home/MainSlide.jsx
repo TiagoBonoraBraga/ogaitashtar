@@ -6,16 +6,16 @@ export default function MainSlide() {
 
     const slides = [
         {
-           url: "/images/guitaKiss.jpg "
+           url: "/images/Kiss1400x600.jpg "
         },
         {
-            url: "/images/guitaRebellion.jpg"
+            url: "/images/rollerTrue1400x600.jpg"
         },
         {
-            url: "/images/streetAtletico.jpg"
+            url: "/images/eupedrera1400x600.jpg"
         },
         {
-            url: "/images/trilhasLagoinha.jpg"
+            url: "/images/trilhasLagoinha1400x600.jpg"
         }
     ]
     // console.log("esses", slides);
@@ -46,7 +46,7 @@ export default function MainSlide() {
    
     return (
         <>
-        <div className="max-w-[1400px] h-[600px] w-full m-auto py-20 px-4 relative group ">
+        <div className="max-w-[1500px] h-[800px] w-full m-auto py-20 px-4 relative group ">
                 <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500 mt-10 mb-9"
                 ></div>
             {/* Left Arrow*/}
