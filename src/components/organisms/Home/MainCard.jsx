@@ -10,12 +10,12 @@ export default function MainCard() {
         <>
             <Card>
                 {cards.map((card, index) => (
-                    <div key={index} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <div key={index} className="max-w-sm bg-white gap-10 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:scale-110">
                         <CustomImage
                             src={card.image}
                             alt="capa do cd"
                             width={400}
-                            height={300}
+                            height={400}
                         />
                         <div className="p-5">
                             <CustomTitle title={card.title} />

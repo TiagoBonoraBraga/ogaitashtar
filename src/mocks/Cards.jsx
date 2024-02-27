@@ -1,7 +1,7 @@
 import miracao from '/public/miracao.jpg';
-import kafofo from '/public/images/logoKafofo.png';
-import morro from '/public/images/morro.jpg';
-import contato from '/public/images/contatoImage.jpg'
+import kafofo from '/public/images/logoKafofo623x623.jpg';
+import morro from '/public/images/maqFoto623x623.jpg';
+import contato from '/public/images/contatoDesenho623x623.jpg'
 export const cards = [
     {
         image: kafofo,
