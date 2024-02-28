@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 import Layout from '@/components/templates/Layout';
 import Head from '@/components/molecules/Head';
 import CustomImage from '@/components/atoms/CustomImage';
+import MainsoloBanner from '@/components/organisms/Home/MainSoloBanner';
 const AlmaNegraDiscografy = dynamic(() => import('@/components/organisms/Discografy/AlmaNegraDiscografy'));
 const TripaDiscografy = dynamic(() => import('@/components/organisms/Discografy/TripaDiscografy'));
 const SemFuturoDiscografy = dynamic(() => import('@/components/organisms/Discografy/SemFuturoDiscografy'));
@@ -17,8 +18,9 @@ export default function Productions() {
         <>
         <Layout>
             <Head />
-            <div className='mb-20'>kkkkk</div>
+            <div className='mb-10'>kkkkk</div>
             <main className='bg-black-500/30'>
+                <MainsoloBanner />
                 <div className=' ss:w-full  py-5 '>       
                     <div 
                         onClick={() => {
