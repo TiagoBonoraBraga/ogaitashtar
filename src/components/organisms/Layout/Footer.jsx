@@ -38,7 +38,7 @@ export default function Footer() {
                                         <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Instagram</a>
                                     </li>
                                     <li>
-                                        <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Linkedin</a>
+                                        <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Facebook</a>
                                     </li>
                                 </ul>
                             </div>
@@ -46,7 +46,7 @@ export default function Footer() {
                                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Profissional</h2>
                                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                     <li className="mb-4">
-                                        <a href="#" className="hover:underline">Tiago Dev</a>
+                                        <a href="#" className="hover:underline">LinkedIn</a>
                                     </li>
                                     <li>
                                         <a href="#" className="hover:underline">Github</a>
