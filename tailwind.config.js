@@ -4,7 +4,9 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './public/index.html',
   ],
+  darkMode: 'class',
   theme: {
     screens: {
       ss: { max: '1030px'},
@@ -15,6 +17,7 @@ module.exports = {
       xl: '1280px',
     },
     colors: {
+    
       black: {
         500: '#000000',
       },
