@@ -13,8 +13,9 @@ module.exports = {
       s: '820px',
       sm: '640px',
       md: '768px',
+      sx: {max: '770px'},
       lg: '1024px',
-      xl: '1280px',
+      xl: '1800px',
     },
     colors: {
       dark: "#1F1D2B",
