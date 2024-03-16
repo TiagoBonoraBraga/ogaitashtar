@@ -10,7 +10,7 @@ export default function MainCard() {
         <>
             <Card>
                 {cards.map((card, index) => (
-                    <div key={index} className="max-w-sm bg-white gap-10 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:scale-110">
+                    <div key={index} className="max-w-sm bg-white dark:bg-white-500 gap-10 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:scale-110">
                         <CustomImage
                             src={card.image}
                             alt="capa do cd"

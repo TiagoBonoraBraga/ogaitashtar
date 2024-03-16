@@ -20,7 +20,7 @@ export default function Home() {
       <Layout>
         <Head />
         <main >
-          <section className="bg-gray-300">
+          <section className="dark:bg-medium">
             <MainSlide />
           </section>
 
