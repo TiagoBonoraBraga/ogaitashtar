@@ -17,7 +17,9 @@ module.exports = {
       xl: '1280px',
     },
     colors: {
-      dark: "#232a3c",
+      dark: "#1F1D2B",
+      dark2:"#393c49",
+      dark3: "#252836",
       medium: "#293245",
       black: {
         500: '#000000',
