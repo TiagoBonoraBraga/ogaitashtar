@@ -26,11 +26,11 @@ export default function Home() {
 
           <ImageGrid />
 
-          <div className="flex flex-row">
+          {/* <div className="flex flex-row">
           <button className="dark:text-white-500">Trocar tema</button>
           <CiSun size={30} className="cursor-pointer" />
-          {/* <IoMoonOutline size={30} className="cursor-pointer"/> */}
-          </div>
+          <IoMoonOutline size={30} className="cursor-pointer"/>
+          </div> */}
          
           <MainSoloBanner />
           <MainCard />

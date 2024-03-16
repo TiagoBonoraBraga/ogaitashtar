@@ -1,6 +1,7 @@
 import CustomLogo from "@/components/atoms/CustomLogo";
 import { useState } from "react";
 import Link from 'next/link';
+import ThemeToggle from "@/components/atoms/ThemeToggle";
 
 
 export default function Header() {
@@ -8,12 +9,12 @@ export default function Header() {
 
     return (
         <>
-            <header className="h-16 bg-white-500 w-[100%] z-50 fixed  top-0 ss:fixed ss:z-50 ">
-                <nav className="w-full shadow-lg  "> 
+            <header className="h-16 bg-white-500 dark:bg-black-500 w-[100%] z-50 fixed  top-0 ss:fixed ss:z-50 ">
+                <nav className="w-full shadow-lg  ">
                     <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                         <div>
                             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                                <CustomLogo title="Ogait Ashtar" />
+                                <CustomLogo title="Ogait Ashtar"  />
                                 <div className="md:hidden">
                                     <button
                                         className="p-2 text-black-500 rounded-md outline-none focus:border-black-500 focus:border"
@@ -61,24 +62,27 @@ export default function Header() {
 
 
                                 <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 ">
-                                    <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
+                                    <li className="text-black-500 dark:text-white-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
                                         <Link href="/" prefetch={false}>Home</Link>
                                     </li>
-                                    <li className="text-black-500  hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
+                                    <li className="text-black-500 dark:text-white-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
                                         <Link href="/productions" prefetch={false}>Discografia</Link>
                                     </li>
-                                    <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
+                                    <li className="text-black-500 dark:text-white-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
                                         <Link href="/gallery" prefetch={false}>Fotos</Link>
                                     </li>
-                                    <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
+                                    <li className="text-black-500 dark:text-white-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
                                         <Link href="/" prefetch={false}>Tiago Dev</Link>
                                     </li>
-                                    <li className="text-black-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
+                                    <li className="text-black-500 dark:text-white-500 hover:text-black-500 hover:text-lg ss:text-white-500 ss:hover:text-white-500 ss:hover:text-lg">
                                         <Link href="/contact" prefetch={false}>Contato</Link>
                                     </li>
                                 </ul>
 
                             </div>
+                        </div>
+                        <div>
+                            <ThemeToggle />
                         </div>
                     </div>
                 </nav>

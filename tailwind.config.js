@@ -9,15 +9,16 @@ module.exports = {
   darkMode: 'class',
   theme: {
     screens: {
-      ss: { max: '1030px'},
-      s:  '820px',
+      ss: { max: '1030px' },
+      s: '820px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
     },
     colors: {
-    
+      dark: "#232a3c",
+      medium: "#293245",
       black: {
         500: '#000000',
       },
@@ -42,8 +43,11 @@ module.exports = {
       },
       red: {
         500: '#FF0000'
-      }
-    
+      },
+      yellow: { 
+        500: '#ffff00', 
+      },
+
     },
     extend: {
       // backgroundImage: {
@@ -51,7 +55,7 @@ module.exports = {
       //   'gradient-conic':
       //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       // },
-    },    
+    },
   },
   plugins: [],
 }
