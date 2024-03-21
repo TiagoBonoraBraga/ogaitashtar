@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { CiSun } from "react-icons/ci";
-import { IoMoonOutline } from "react-icons/io5";
+// import { useState } from "react";
+// import { CiSun } from "react-icons/ci";
+// import { IoMoonOutline } from "react-icons/io5";
 import Layout from "@/components/templates/Layout";
 import MainSoloBanner from "@/components/organisms/Home/MainSoloBanner";
 import MainCard from "@/components/organisms/Home/MainCard";
