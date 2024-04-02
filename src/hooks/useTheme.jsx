@@ -8,7 +8,7 @@ export default function ThemeContextProvider({ children }) {
 
     useEffect(() => {
         const theme = localStorage.getItem("theme");
-        if (theme === "dark") setDarkMode(true)
+        if (theme === "dark") setDarkMode(false)
     }, []);
 
     useEffect(() => {
